@@ -6,7 +6,7 @@
   <link href="https://www.iflu.cf/atom.xml" rel="self"/>
   
   <link href="https://www.iflu.cf/"/>
-  <updated>2021-08-18T14:32:05.627Z</updated>
+  <updated>2021-08-25T13:38:10.760Z</updated>
   <id>https://www.iflu.cf/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中国区Microsoft Edge浏览器新标签页底部出现无法关闭的广告以及</title>
+    <link href="https://www.iflu.cf/2021/08/24/edge-browser-and-mandatory-advertising-after-afternoon-in-20210824/"/>
+    <id>https://www.iflu.cf/2021/08/24/edge-browser-and-mandatory-advertising-after-afternoon-in-20210824/</id>
+    <published>2021-08-24T10:19:18.000Z</published>
+    <updated>2021-08-25T13:38:10.760Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>2021年7月24日，午睡后的Edge浏览器，有了些强制广告。起初我以为是bug，或是自己设置的问题。</p><p><img src="https://cdn.jsdelivr.net/gh/DaoChen6/img@main/img/image-20210824224850961.png" alt="image-20210824224850961"></p><p>直到我瞧着了这篇说明<a href="https://answers.microsoft.com/zh-hans/microsoftedge/forum/all/%E7%AA%81%E5%8F%91/7324bc7c-58ec-4ee5-b01b-7bca795ca7a8">「突发 &amp; 紧急」关于 “Microsoft Edge 浏览器新标签页底部出现无法关闭的广告” 问题的说明</a>，我才意识到这可能是某些人刷流氓来了。</p><p><code>增值电信业务经营许可证: 合字B2-20090007</code>这几个呈现在Edge浏览器左下角的字眼，我应该早就想到的。又是一个小知识，Edge浏览器的新建标签页不是本地而是远程的，根据IP提供服务。</p><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>微软官方的回复是24小时内修好，但没事肯定不能干等着。</p><p>两种方法</p><h3 id="一、修改Hosts文件屏蔽MSN中国版"><a href="#一、修改Hosts文件屏蔽MSN中国版" class="headerlink" title="一、修改Hosts文件屏蔽MSN中国版"></a>一、<strong>修改Hosts文件屏蔽MSN中国版</strong></h3><p>Windows系统路径：<code>C:\Windows\System32\drivers\etc\hosts</code></p><p>Linux系统路径：<code>/etc/hosts</code></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">0.0.0.0 c.msn.com</span><br><span class="line">0.0.0.0 ntp.msn.com</span><br><span class="line">0.0.0.0 ntp.msn.cn</span><br><span class="line">0.0.0.0 assets.msn.cn</span><br><span class="line">0.0.0.0 api.msn.com</span><br><span class="line">0.0.0.0 browser.events.data.msn.com</span><br><span class="line">0.0.0.0 img-s-msn-com.akamaized.net</span><br></pre></td></tr></table></figure><p>修改完后打开 Microsoft Edge 浏览器启动页仍然可以看到广告，需要在浏览器设置里将所有的缓存文件清空才生效。</p><p>复制此地址到 Microsoft Edge 浏览器打开：<code>edge://settings/clearBrowserData</code>  勾选缓存图像和文件点清除。</p><p>重启浏览器后如果仍然还有广告的话可以打开命令提示符然后输入 <code>ipconfig /flushdns</code> 清除DNS缓存即可生效。</p><p><strong>此方法屏蔽广告后不会影响浏览器检查更新，也无需担心后续微软更新时投放其他广告等</strong></p><h3 id="二、追加启动策略禁止广告"><a href="#二、追加启动策略禁止广告" class="headerlink" title="二、追加启动策略禁止广告"></a>二、<strong>追加启动策略禁止广告</strong></h3><blockquote><p>此方法通过修改浏览器启动策略来禁止广告，本质上与修改Hosts屏蔽没有区别，但未来这类策略有可能会失效。</p></blockquote><p>右键点击微软浏览器图标选择<code>属性</code>，然后在目标结尾追加空格和 <code>--force-local-ntp</code> 保存</p><p>如果你将微软浏览器固定在任务栏上使用，还需要右键点击任务栏图标、再次右键点击 Edge 然后左键点击属性，在属性里追加启动策略即可。</p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>目前中国区Microsoft Edge 浏览器新建标签页已没有无法关闭广告了，不过仍然有隐患，如果你仔细看新版标签页的UI的话，会发现比起以前没有广告的时候，搜索栏下的链接图标集体向上移动了一大块。</p><p><img src="https://cdn.jsdelivr.net/gh/DaoChen6/img@main/img/image-20210825213519469.png" alt="image-20210825213519469"></p><p>换句话说，原来超链广告的位置依旧存在，按照这次悄么声恶心人的操作来看，虽然微软火速下架了这个功能，但谁也不能保证以后不会给你再来一波类似的操作。比如原模原样在做一个广告区，可能和这次的唯一区别就是每次开启后手动关闭。微软团队在Microsoft Edge乱拉屎，希望Microsoft Edge团队明白用户为何选择Microsoft Edge而不是Chrome。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;2021年7月24日，午睡后的Edge浏览器，有了些强制广告。起初我以为是bug，或是自己设置的问题。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;h</summary>
+      
+    
+    
+    
+    <category term="在线鼓捣" scheme="https://www.iflu.cf/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/"/>
+    
+    <category term="其他" scheme="https://www.iflu.cf/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="浏览器" scheme="https://www.iflu.cf/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>2021 年 Web 应用开发常用的五个图标库</title>
