@@ -18,7 +18,7 @@
   <meta name="description" content="“多點自知之明，少点自作多情。”">
 <meta property="og:type" content="website">
 <meta property="og:title" content="辰漉博客">
-<meta property="og:url" content="https://www.iflu.cf/tags/OneDrive/index.html">
+<meta property="og:url" content="https://www.iflu.cf/tags/vsftpd/index.html">
 <meta property="og:site_name" content="辰漉博客">
 <meta property="og:description" content="“多點自知之明，少点自作多情。”">
 <meta property="og:locale">
@@ -164,27 +164,25 @@
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
-                    <a href="/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/">
+                    <a href="/2021/11/27/vsftpd-directory-limit-chroot-user-isolation-500-error/">
                         
-                            <img class="kratos-entry-thumb-new-img" src="https://cdn.jsdelivr.net/gh/DaoChen6/img@main/img/20210729205229.png">
+                            <img class="kratos-entry-thumb-new-img" src="https://cdn.jsdelivr.net/gh/DaoChen6/img@main/img/20211127120721.png">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/">在线鼓捣</a> <a class="label-link" href="/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/Linux/">Linux</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/">运用闲置小鸡+Cloudreve+Cloudflare Workers反代+OneDrive搭建网盘</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2021/11/27/vsftpd-directory-limit-chroot-user-isolation-500-error/">vsftpd目录限制chroot（用户隔离）500错误</a>
                     </header>
                     <div class="kratos-entry-content-new">
                         <p>
                             
                                 
-前言：闲来无事，碰巧见群里讨论OneDrive，想起了我那空闲的5T空间，于是拿起闲置破烂小鸡用Cloudreve直接搭建了个网盘
+vsftpd 用户限制（用户隔离）
+即把用户限制在主目录中（不能切换到主目录以外的目录中）
 
-一、部署Cloudreve
-注：Cloudreve官网 Cloudreve文档
-
-1）去下载Clo...
+1）500 OOPS: could not read chroot() list file:/etc/vsftpd/chroot_list...
                             
                         </p>
                     </div>
@@ -193,18 +191,18 @@
                     <span class="pull-left">
                         <a>
                             <i class="fa fa-calendar"></i>
-                            2021-07-29
+                            2021-11-27
                         </a>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
-                                <a class="tag-none-link" href="/tags/Cloudflare/" rel="tag">Cloudflare</a>, <a class="tag-none-link" href="/tags/Linux/" rel="tag">Linux</a>, <a class="tag-none-link" href="/tags/OneDrive/" rel="tag">OneDrive</a>
+                                <a class="tag-none-link" href="/tags/Linux/" rel="tag">Linux</a>, <a class="tag-none-link" href="/tags/ftp/" rel="tag">ftp</a>, <a class="tag-none-link" href="/tags/vsftpd/" rel="tag">vsftpd</a>
                             
                         </a>
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/" class="leancloud_visitors" data-flag-title="运用闲置小鸡+Cloudreve+Cloudflare Workers反代+OneDrive搭建网盘">
+                                <a id="/2021/11/27/vsftpd-directory-limit-chroot-user-isolation-500-error/" class="leancloud_visitors" data-flag-title="vsftpd目录限制chroot（用户隔离）500错误">
                                     <i class="fa fa-eye"></i>
                                     <span class="leancloud-visitors-count"> </span> 次阅读
                                 </a>
@@ -215,13 +213,13 @@
                             
                                 <a>
                                     <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/" class="waline-comment-count"> </span> 条评论
+                                    <span data-xid="/2021/11/27/vsftpd-directory-limit-chroot-user-isolation-500-error/" class="waline-comment-count"> </span> 条评论
                                 </a>
                             
                         
                     </span>
                     <span class="pull-right">
-                        <a class="read-more" href="/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+                        <a class="read-more" href="/2021/11/27/vsftpd-directory-limit-chroot-user-isolation-500-error/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
                     </span>
                 </footer>
             </div>
@@ -241,7 +239,7 @@
         const init = () => {
             new Waline(Object.assign({
                 el: '#w-comments',
-                path: '/tags/OneDrive/index.html'
+                path: '/tags/vsftpd/index.html'
             }, JSON.parse('{"serverURL":"https://comment.iflu.cf/","visitor":true}')));
         }
         if (typeof Waline == 'undefined') {
