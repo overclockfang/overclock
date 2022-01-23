@@ -41,22 +41,22 @@
     <link rel="stylesheet" id="highlight-css" href="/css/highlight/night-eighties.min.css" type="text/css" media="all">
   
   
-  <link rel="stylesheet" id="fontawe-css" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css" media="all">
-  <link rel="stylesheet" id="nprogress-css" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="fontawe-css" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="nprogress-css" href="https://unpkg.com/nprogress@0.2.0/nprogress.css" type="text/css" media="all">
   
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
   
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
   
   
     <link rel="stylesheet" id="darkmode-css" href="/css/kr-dark.min.css" type="text/css" media="all">
   
   <!-- 不得不预先加载的一些JS文件 -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
   
-    <script src="https://cdn.jsdelivr.net/npm/qrcode_js@1.0.0/qrcode.min.js"></script>
+    <script src="https://unpkg.com/qrcode_js@1.0.0/qrcode.min.js"></script>
   
   
   <style>
@@ -247,8 +247,8 @@
                 path: '/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/index.html'
             }, JSON.parse('{"serverURL":"https://comment.iflu.cf/","visitor":true}')));
         }
-        if (typeof Waline == 'undefined') {
-            const src = 'https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js';
+        if (typeof Waline === 'undefined') {
+            const src = 'https://unpkg.com/@waline/client/dist/Waline.min.js';
             $.getScript(src, init);
         } else {
             init();
@@ -438,8 +438,8 @@
 </div>
 </div>
 
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
+        <script defer src="https://unpkg.com/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
+<script defer src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script>
 <script>
     if (!window.kr) {
         window.kr = {};
@@ -453,9 +453,9 @@
 
 
 
-    <script defer src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script defer src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
     
-    <script defer src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+    <script defer src="https://unpkg.com/meting@2/dist/Meting.min.js"></script>
     <meting-js
         server="netease"
         type="playlist"
@@ -467,9 +467,9 @@
 
 
 
-    <script defer src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script defer src="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-<script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script defer src="https://unpkg.com/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script defer src="/js/kratosr.min.js"></script>
 <script defer src="/js/pjax.min.js"></script>
 
