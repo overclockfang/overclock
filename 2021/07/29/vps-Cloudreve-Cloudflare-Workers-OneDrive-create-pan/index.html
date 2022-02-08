@@ -18,11 +18,11 @@
   <meta name="description" content="前言：闲来无事，碰巧见群里讨论OneDrive，想起了我那空闲的5T空间，于是拿起闲置破烂小鸡用Cloudreve直接搭建了个网盘  一、部署Cloudreve 注：Cloudreve官网 Cloudreve文档  1）去下载Cloudreve，然后传到小鸡 2）tar -xzf解压后chmod +x .&#x2F;cloudreve赋予权限，再.&#x2F;cloudreve启动 这个鸡访问起来是真的慢，所以我就">
 <meta property="og:type" content="article">
 <meta property="og:title" content="运用闲置小鸡+Cloudreve+Cloudflare Workers反代+OneDrive搭建网盘">
-<meta property="og:url" content="https://www.iflu.cf/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/index.html">
+<meta property="og:url" content="https://www.ifts.ml/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/index.html">
 <meta property="og:site_name" content="辰漉博客">
 <meta property="og:description" content="前言：闲来无事，碰巧见群里讨论OneDrive，想起了我那空闲的5T空间，于是拿起闲置破烂小鸡用Cloudreve直接搭建了个网盘  一、部署Cloudreve 注：Cloudreve官网 Cloudreve文档  1）去下载Cloudreve，然后传到小鸡 2）tar -xzf解压后chmod +x .&#x2F;cloudreve赋予权限，再.&#x2F;cloudreve启动 这个鸡访问起来是真的慢，所以我就">
 <meta property="og:locale">
-<meta property="og:image" content="https://www.iflu.cf/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/https:/cdn.jsdelivr.net/gh/DaoChen6/img@main/img/20210729205229.png">
+<meta property="og:image" content="https://www.ifts.ml/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/https:/cdn.jsdelivr.net/gh/DaoChen6/img@main/img/20210729205229.png">
 <meta property="article:published_time" content="2021-07-29T12:46:28.000Z">
 <meta property="article:modified_time" content="2021-08-13T09:04:58.000Z">
 <meta property="article:author" content="道辰">
@@ -30,7 +30,7 @@
 <meta property="article:tag" content="Linux">
 <meta property="article:tag" content="OneDrive">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://www.iflu.cf/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/https:/cdn.jsdelivr.net/gh/DaoChen6/img@main/img/20210729205229.png">
+<meta name="twitter:image" content="https://www.ifts.ml/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/https:/cdn.jsdelivr.net/gh/DaoChen6/img@main/img/20210729205229.png">
 <meta name="twitter:site" content="@IFLU10">
   
   <!-- 站点验证相关 -->
@@ -115,11 +115,11 @@
                                                     
                                                 
                                                     
-                                                        <li><a href="https://www.iflu.cf">作者博客一</a></li>
+                                                        <li><a target="_blank" rel="noopener" href="https://www.iflu.cf">作者博客一</a></li>
                                                     
                                                 
                                                     
-                                                        <li><a target="_blank" rel="noopener" href="https://www.ifts.ml">作者博客二</a></li>
+                                                        <li><a href="https://www.ifts.ml">作者博客二</a></li>
                                                     
                                                 
                                             </ul>
@@ -305,7 +305,7 @@
     <script type="text/javascript">
         $(()=>{
             new QRCode("wechat-qr", {
-                text: "https://www.iflu.cf/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/",
+                text: "https://www.ifts.ml/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/",
                 width: 150,
                 height: 150,
                 correctLevel : QRCode.CorrectLevel.H
@@ -317,7 +317,7 @@
             const qzoneBase     = "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?";
             const facebookBase  = "https://www.facebook.com/sharer/sharer.php?";
             const twitterBase   = "https://twitter.com/intent/tweet?";
-            const hostUrl       = "https://www.iflu.cf/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/";
+            const hostUrl       = "https://www.ifts.ml/2021/07/29/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/";
             const title         = "「运用闲置小鸡+Cloudreve+Cloudflare Workers反代+OneDrive搭建网盘」";
             const excerpt       = `
 前言：闲来无事，碰巧见群里讨论OneDrive，想起了我那空闲的5T空间，于是拿起闲置破烂小鸡用Cloudreve直接搭建了个网盘
