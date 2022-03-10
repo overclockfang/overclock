@@ -233,6 +233,27 @@
   </url>
   
   <url>
+    <loc>https://www.ifts.ml/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <lastmod>2022-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ifts.ml/tags/V2ray/</loc>
+    <lastmod>2022-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ifts.ml/tags/%E5%85%8D%E8%B4%B9VPS/</loc>
+    <lastmod>2022-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ifts.ml/tags/Linux/</loc>
     <lastmod>2022-03-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -261,28 +282,21 @@
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-    <lastmod>2022-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ifts.ml/tags/V2ray/</loc>
-    <lastmod>2022-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ifts.ml/tags/%E5%85%8D%E8%B4%B9VPS/</loc>
-    <lastmod>2022-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ifts.ml/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
+    <lastmod>2022-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ifts.ml/tags/blog/</loc>
+    <lastmod>2022-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ifts.ml/tags/cloudflare/</loc>
     <lastmod>2022-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -304,20 +318,6 @@
   
   <url>
     <loc>https://www.ifts.ml/tags/%E7%BD%91%E7%9B%98%E6%8C%82%E8%BD%BD/</loc>
-    <lastmod>2022-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ifts.ml/tags/blog/</loc>
-    <lastmod>2022-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ifts.ml/tags/cloudflare/</loc>
     <lastmod>2022-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
