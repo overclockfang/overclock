@@ -6,7 +6,7 @@
   <link href="https://www.ifts.ml/atom.xml" rel="self"/>
   
   <link href="https://www.ifts.ml/"/>
-  <updated>2022-03-10T14:39:01.119Z</updated>
+  <updated>2022-03-10T17:32:11.566Z</updated>
   <id>https://www.ifts.ml/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更换主题 全新改版</title>
+    <link href="https://www.ifts.ml/posts/change-the-theme-of-the-new-revision/"/>
+    <id>https://www.ifts.ml/posts/change-the-theme-of-the-new-revision/</id>
+    <published>2022-03-10T17:25:35.000Z</published>
+    <updated>2022-03-10T17:32:11.566Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;timeline pinkl&quot;&gt;&lt;div class=&#39;timeline-item headline&#39;&gt;&lt;div class=&#39;timeline-item-title&#39;&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>CLoudflare防火墙规则【Free计划可用】</title>
