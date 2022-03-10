@@ -1,10 +1,10 @@
-https://www.ifts.ml/posts/cf-blog-set-logo/
-https://www.ifts.ml/posts/Cloudflare-firewall-rules-are-finally-in-place/
-https://www.ifts.ml/posts/alist-bulid-and-caddy-bulid-shell/
-https://www.ifts.ml/posts/cf-blog-basic-build-tutorial/
-https://www.ifts.ml/posts/Postfix-opens-SASL-cannot-find-service/
 https://www.ifts.ml/posts/vsftpd-directory-limit-chroot-user-isolation-500-error/
-https://www.ifts.ml/posts/Double-gigabit-n270-board-toss-follow-up/
+https://www.ifts.ml/posts/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/
+https://www.ifts.ml/posts/Ubuntu-create-Minecraft-Bedrock-Edition/
 https://www.ifts.ml/posts/top-5-icon-packs-for-web-apps-in-2021/
+https://www.ifts.ml/posts/rubbish-Japan-olympics-no-olympics-spirit-but-have-anti-Japanese-spirit/
+https://www.ifts.ml/posts/Postfix-opens-SASL-cannot-find-service/
 https://www.ifts.ml/posts/lingdong-n270-ikuai-ruanluyou-in-2021-8-29/
+https://www.ifts.ml/posts/install-Appnode-Panel-use-php-bash-php-command-not-found-problem-solution/
 https://www.ifts.ml/posts/EUserv-free-VPS-install-V2ray-WS-TLS-Cloudflare/
+https://www.ifts.ml/posts/edge-browser-and-mandatory-advertising-after-afternoon-in-20210824/
