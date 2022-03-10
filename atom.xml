@@ -6,7 +6,7 @@
   <link href="https://www.ifts.ml/atom.xml" rel="self"/>
   
   <link href="https://www.ifts.ml/"/>
-  <updated>2022-03-10T07:31:08.487Z</updated>
+  <updated>2022-03-10T14:39:01.119Z</updated>
   <id>https://www.ifts.ml/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.ifts.ml/posts/Cloudflare-firewall-rules-are-finally-in-place/"/>
     <id>https://www.ifts.ml/posts/Cloudflare-firewall-rules-are-finally-in-place/</id>
     <published>2022-01-23T08:20:48.000Z</published>
-    <updated>2022-03-10T07:31:08.487Z</updated>
+    <updated>2022-03-10T14:39:01.119Z</updated>
     
     
       
@@ -52,7 +52,7 @@
     <link href="https://www.ifts.ml/posts/cf-blog-set-logo/"/>
     <id>https://www.ifts.ml/posts/cf-blog-set-logo/</id>
     <published>2021-12-22T14:19:31.000Z</published>
-    <updated>2022-03-10T07:31:08.482Z</updated>
+    <updated>2022-03-10T14:40:05.861Z</updated>
     
     
       
@@ -114,7 +114,7 @@
     <link href="https://www.ifts.ml/posts/cf-blog-basic-build-tutorial/"/>
     <id>https://www.ifts.ml/posts/cf-blog-basic-build-tutorial/</id>
     <published>2021-11-29T14:18:21.000Z</published>
-    <updated>2022-03-10T14:04:14.701Z</updated>
+    <updated>2022-03-10T14:33:13.467Z</updated>
     
     
       
@@ -246,7 +246,7 @@
     <link href="https://www.ifts.ml/posts/lingdong-n270-ikuai-ruanluyou-in-2021-8-29/"/>
     <id>https://www.ifts.ml/posts/lingdong-n270-ikuai-ruanluyou-in-2021-8-29/</id>
     <published>2021-08-29T12:39:23.000Z</published>
-    <updated>2022-03-10T07:31:08.521Z</updated>
+    <updated>2022-03-10T14:34:46.362Z</updated>
     
     
       
@@ -278,7 +278,7 @@
     <link href="https://www.ifts.ml/posts/edge-browser-and-mandatory-advertising-after-afternoon-in-20210824/"/>
     <id>https://www.ifts.ml/posts/edge-browser-and-mandatory-advertising-after-afternoon-in-20210824/</id>
     <published>2021-08-24T10:19:18.000Z</published>
-    <updated>2022-03-10T14:10:19.889Z</updated>
+    <updated>2022-03-10T14:31:02.888Z</updated>
     
     
       
@@ -306,7 +306,7 @@
     <link href="https://www.ifts.ml/posts/top-5-icon-packs-for-web-apps-in-2021/"/>
     <id>https://www.ifts.ml/posts/top-5-icon-packs-for-web-apps-in-2021/</id>
     <published>2021-08-18T14:11:23.000Z</published>
-    <updated>2022-03-10T14:12:11.113Z</updated>
+    <updated>2022-03-10T14:32:20.238Z</updated>
     
     
       
@@ -419,9 +419,9 @@
     <category term="Linux" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/Linux/"/>
     
     
-    <category term="Linux" scheme="https://www.ifts.ml/tags/Linux/"/>
-    
     <category term="Cloudflare" scheme="https://www.ifts.ml/tags/Cloudflare/"/>
+    
+    <category term="Linux" scheme="https://www.ifts.ml/tags/Linux/"/>
     
     <category term="OneDrive" scheme="https://www.ifts.ml/tags/OneDrive/"/>
     
