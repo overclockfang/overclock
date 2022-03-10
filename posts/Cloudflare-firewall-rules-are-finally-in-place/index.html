@@ -196,7 +196,7 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
   }
 
   if (typeof Waline === 'function') initWaline()
-  else getScript('/%5Bobject%20Object%5D').then(initWaline)
+  else getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js').then(initWaline)
 }
 
 if ('Waline' === 'Waline' || !true) {
