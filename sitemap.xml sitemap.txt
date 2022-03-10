@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ifts.ml/posts/Double-gigabit-n270-board-toss-follow-up/</loc>
+    
+    <lastmod>2022-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ifts.ml/posts/cf-blog-set-logo/</loc>
     
     <lastmod>2022-03-10</lastmod>
@@ -146,15 +155,6 @@
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/posts/Double-gigabit-n270-board-toss-follow-up/</loc>
-    
-    <lastmod>2022-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ifts.ml/posts/debian10-install-Telegram/</loc>
     
     <lastmod>2022-03-10</lastmod>
@@ -233,27 +233,6 @@
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-    <lastmod>2022-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ifts.ml/tags/V2ray/</loc>
-    <lastmod>2022-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ifts.ml/tags/%E5%85%8D%E8%B4%B9VPS/</loc>
-    <lastmod>2022-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ifts.ml/tags/Linux/</loc>
     <lastmod>2022-03-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -276,6 +255,27 @@
   
   <url>
     <loc>https://www.ifts.ml/tags/%E9%82%AE%E7%AE%B1%E6%9C%8D%E5%8A%A1/</loc>
+    <lastmod>2022-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ifts.ml/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <lastmod>2022-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ifts.ml/tags/V2ray/</loc>
+    <lastmod>2022-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ifts.ml/tags/%E5%85%8D%E8%B4%B9VPS/</loc>
     <lastmod>2022-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
