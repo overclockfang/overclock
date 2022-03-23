@@ -6,7 +6,7 @@
   <link href="https://www.ifts.ml/atom.xml" rel="self"/>
   
   <link href="https://www.ifts.ml/"/>
-  <updated>2022-03-10T17:37:06.846Z</updated>
+  <updated>2022-03-23T15:54:40.531Z</updated>
   <id>https://www.ifts.ml/</id>
   
   <author>
@@ -15,6 +15,67 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用CloudFlare for SaaS 实现Cname接入</title>
+    <link href="https://www.ifts.ml/posts/Use-CloudFlare-for-SaaS-to-achieve-CNAME-access/"/>
+    <id>https://www.ifts.ml/posts/Use-CloudFlare-for-SaaS-to-achieve-CNAME-access/</id>
+    <published>2022-03-23T15:50:50.000Z</published>
+    <updated>2022-03-23T15:54:40.531Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;自从2021年11月开始，CloudFlare全面了Partner使用的&lt;code&gt;zone_set&lt;/code&gt;API以此来避免滥用问题（因为使用这个API接入域名是不需要验证域名所有权的），通过Partner实现CNAME接入的方式近乎落幕，仅剩Plesk空间存量的&lt;c</summary>
+        
+      
+    
+    
+    
+    <category term="在线鼓捣" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/"/>
+    
+    <category term="其他" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="CloudFlare" scheme="https://www.ifts.ml/tags/CloudFlare/"/>
+    
+    <category term="Cname" scheme="https://www.ifts.ml/tags/Cname/"/>
+    
+    <category term="域名" scheme="https://www.ifts.ml/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>屏蔽垃圾爬虫DataForSeoBot</title>
+    <link href="https://www.ifts.ml/posts/ban-DataForSeoBot/"/>
+    <id>https://www.ifts.ml/posts/ban-DataForSeoBot/</id>
+    <published>2022-03-23T15:50:41.000Z</published>
+    <updated>2022-03-23T15:53:03.978Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;昨天看网站后台的爬虫数据，发现个&lt;code&gt;DataForSeoBot&lt;/code&gt;爬虫，比Bing猛多了&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="在线鼓捣" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/"/>
+    
+    <category term="Linux" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/Linux/"/>
+    
+    
+    <category term="DataForSeoBot" scheme="https://www.ifts.ml/tags/DataForSeoBot/"/>
+    
+    <category term="爬虫" scheme="https://www.ifts.ml/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>更换主题 全新改版</title>

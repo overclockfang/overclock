@@ -1,3 +1,5 @@
+https://www.ifts.ml/posts/Use-CloudFlare-for-SaaS-to-achieve-CNAME-access/
+https://www.ifts.ml/posts/ban-DataForSeoBot/
 https://www.ifts.ml/posts/change-the-theme-of-the-new-revision/
 https://www.ifts.ml/posts/Double-gigabit-n270-board-toss-follow-up/
 https://www.ifts.ml/posts/cf-blog-set-logo/
@@ -6,5 +8,3 @@ https://www.ifts.ml/posts/lingdong-n270-ikuai-ruanluyou-in-2021-8-29/
 https://www.ifts.ml/posts/cf-blog-basic-build-tutorial/
 https://www.ifts.ml/posts/top-5-icon-packs-for-web-apps-in-2021/
 https://www.ifts.ml/posts/edge-browser-and-mandatory-advertising-after-afternoon-in-20210824/
-https://www.ifts.ml/posts/vsftpd-directory-limit-chroot-user-isolation-500-error/
-https://www.ifts.ml/posts/vps-Cloudreve-Cloudflare-Workers-OneDrive-create-pan/
