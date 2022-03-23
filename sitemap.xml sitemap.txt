@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ifts.ml/posts/ban-DataForSeoBot/</loc>
+    <loc>https://www.ifts.ml/posts/Use-CloudFlare-for-SaaS-to-achieve-CNAME-access/</loc>
     
     <lastmod>2022-03-23</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/posts/Use-CloudFlare-for-SaaS-to-achieve-CNAME-access/</loc>
+    <loc>https://www.ifts.ml/posts/ban-DataForSeoBot/</loc>
     
     <lastmod>2022-03-23</lastmod>
     
@@ -260,6 +260,27 @@
   </url>
   
   <url>
+    <loc>https://www.ifts.ml/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <lastmod>2022-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ifts.ml/tags/V2ray/</loc>
+    <lastmod>2022-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ifts.ml/tags/%E5%85%8D%E8%B4%B9VPS/</loc>
+    <lastmod>2022-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ifts.ml/tags/Linux/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -295,21 +316,21 @@
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <loc>https://www.ifts.ml/tags/caddy/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/tags/V2ray/</loc>
+    <loc>https://www.ifts.ml/tags/shell/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/tags/%E5%85%8D%E8%B4%B9VPS/</loc>
+    <loc>https://www.ifts.ml/tags/%E7%BD%91%E7%9B%98%E6%8C%82%E8%BD%BD/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -345,27 +366,6 @@
   
   <url>
     <loc>https://www.ifts.ml/tags/%E7%88%AC%E8%99%AB/</loc>
-    <lastmod>2022-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ifts.ml/tags/caddy/</loc>
-    <lastmod>2022-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ifts.ml/tags/shell/</loc>
-    <lastmod>2022-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ifts.ml/tags/%E7%BD%91%E7%9B%98%E6%8C%82%E8%BD%BD/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -414,13 +414,6 @@
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/tags/%E5%A5%A5%E8%BF%90%E4%BC%9A/</loc>
-    <lastmod>2022-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ifts.ml/tags/%E7%88%B1%E5%BF%AB/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -428,7 +421,7 @@
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/tags/OneDrive/</loc>
+    <loc>https://www.ifts.ml/tags/%E5%A5%A5%E8%BF%90%E4%BC%9A/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -450,6 +443,13 @@
   
   <url>
     <loc>https://www.ifts.ml/tags/icon/</loc>
+    <lastmod>2022-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ifts.ml/tags/OneDrive/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -486,7 +486,7 @@
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/VPS/</loc>
+    <loc>https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/Linux/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -507,7 +507,7 @@
   </url>
   
   <url>
-    <loc>https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/Linux/</loc>
+    <loc>https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/VPS/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
