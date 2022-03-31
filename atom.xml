@@ -6,7 +6,7 @@
   <link href="https://www.ifts.ml/atom.xml" rel="self"/>
   
   <link href="https://www.ifts.ml/"/>
-  <updated>2022-03-25T07:41:25.622Z</updated>
+  <updated>2022-03-31T17:24:30.502Z</updated>
   <id>https://www.ifts.ml/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WHMCS NGINX伪静态规则</title>
+    <link href="https://www.ifts.ml/posts/WHMCS-NGINX-Rewrite/"/>
+    <id>https://www.ifts.ml/posts/WHMCS-NGINX-Rewrite/</id>
+    <published>2022-03-31T17:18:49.000Z</published>
+    <updated>2022-03-31T17:24:30.502Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前言：迁移了一下WHMCS，结果忘记备份伪静态规则，重新搞了一编，扔这里做个备份&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="在线鼓捣" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/"/>
+    
+    <category term="Web" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/Web/"/>
+    
+    
+    <category term="Nginx" scheme="https://www.ifts.ml/tags/Nginx/"/>
+    
+    <category term="WHMCS" scheme="https://www.ifts.ml/tags/WHMCS/"/>
+    
+    <category term="伪静态" scheme="https://www.ifts.ml/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
+    
+  </entry>
   
   <entry>
     <title>利用CloudFlare for SaaS 实现Cname接入</title>
@@ -594,37 +628,6 @@
     <category term="Linux" scheme="https://www.ifts.ml/tags/Linux/"/>
     
     <category term="Telegram" scheme="https://www.ifts.ml/tags/Telegram/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安装Appnode面板使用php命令时bash: php :command not found问题所在及解决办法</title>
-    <link href="https://www.ifts.ml/posts/install-Appnode-Panel-use-php-bash-php-command-not-found-problem-solution/"/>
-    <id>https://www.ifts.ml/posts/install-Appnode-Panel-use-php-bash-php-command-not-found-problem-solution/</id>
-    <published>2021-07-04T09:39:20.000Z</published>
-    <updated>2022-03-10T07:31:08.516Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;​    使用Appnode服务器面板创建网站时，运行shell命令给我出来个&lt;code&gt;bash: php :command not</summary>
-        
-      
-    
-    
-    
-    <category term="在线鼓捣" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/"/>
-    
-    <category term="Linux" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/Linux/"/>
-    
-    
-    <category term="Linux" scheme="https://www.ifts.ml/tags/Linux/"/>
-    
-    <category term="appnode" scheme="https://www.ifts.ml/tags/appnode/"/>
-    
-    <category term="php" scheme="https://www.ifts.ml/tags/php/"/>
     
   </entry>
   
