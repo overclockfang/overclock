@@ -6,7 +6,7 @@
   <link href="https://www.ifts.ml/atom.xml" rel="self"/>
   
   <link href="https://www.ifts.ml/"/>
-  <updated>2022-03-31T17:34:01.412Z</updated>
+  <updated>2022-04-06T08:07:12.269Z</updated>
   <id>https://www.ifts.ml/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.ifts.ml/posts/WHMCS-NGINX-Rewrite/"/>
     <id>https://www.ifts.ml/posts/WHMCS-NGINX-Rewrite/</id>
     <published>2022-03-31T17:18:49.000Z</published>
-    <updated>2022-03-31T17:34:01.412Z</updated>
+    <updated>2022-04-06T08:07:12.269Z</updated>
     
     
       
@@ -535,9 +535,9 @@
     <category term="Linux" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/Linux/"/>
     
     
-    <category term="Cloudflare" scheme="https://www.ifts.ml/tags/Cloudflare/"/>
-    
     <category term="Linux" scheme="https://www.ifts.ml/tags/Linux/"/>
+    
+    <category term="Cloudflare" scheme="https://www.ifts.ml/tags/Cloudflare/"/>
     
     <category term="OneDrive" scheme="https://www.ifts.ml/tags/OneDrive/"/>
     
