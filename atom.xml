@@ -55,16 +55,10 @@
     <link href="https://www.ifts.ml/posts/Use-CloudFlare-for-SaaS-to-achieve-CNAME-access/"/>
     <id>https://www.ifts.ml/posts/Use-CloudFlare-for-SaaS-to-achieve-CNAME-access/</id>
     <published>2022-03-23T15:50:50.000Z</published>
-    <updated>2022-03-25T07:41:25.622Z</updated>
+    <updated>2022-04-16T10:28:05.437Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;自从2021年11月开始，CloudFlare全面禁用了Partner使用的&lt;code&gt;zone_set&lt;/code&gt;API以此来避免滥用问题（因为使用这个API接入域名是不需要验证域名所有权的），通过Partner实现CNAME接入的方式近乎落幕，仅剩Plesk空间存量的</summary>
-        
-      
+    <summary type="html">有东西被加密了, 请输入密码查看.</summary>
     
     
     
@@ -535,9 +529,9 @@
     <category term="Linux" scheme="https://www.ifts.ml/categories/%E5%9C%A8%E7%BA%BF%E9%BC%93%E6%8D%A3/Linux/"/>
     
     
-    <category term="Linux" scheme="https://www.ifts.ml/tags/Linux/"/>
-    
     <category term="Cloudflare" scheme="https://www.ifts.ml/tags/Cloudflare/"/>
+    
+    <category term="Linux" scheme="https://www.ifts.ml/tags/Linux/"/>
     
     <category term="OneDrive" scheme="https://www.ifts.ml/tags/OneDrive/"/>
     
